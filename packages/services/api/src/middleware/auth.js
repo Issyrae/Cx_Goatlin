@@ -21,7 +21,7 @@ module.exports = async function (req, res, next) {
         return next();
     } catch (e) {
         let status = 500;
-        let error = 'Authentication failed'
+        let error = 'Authentication has failed'
 
         console.error(e);
 
